@@ -1,4 +1,4 @@
-# JSON Data Cleaning for Time Series Data
+# JSON Data Cleaning for Time Series Data(fill_gaps(1).py)
 
 ## Problem Description
 The problem involves cleaning JSON data representing time series data captured by Linux. The data contains occasional instances where numeric values, such as open, high, low, close, and volume, are recorded as zeros. These zero values need to be replaced with the respective values from the previous non-zero entry to ensure the integrity of the time series data.
